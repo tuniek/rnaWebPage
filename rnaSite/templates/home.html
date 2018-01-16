@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RNA Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/fontawesome-all.min.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Navbar</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="jumbotron">
+    <div class="container">
+        <img src="/static/img/logo.svg" style="float:left;margin-top:13px;width:310px;margin-right:40px">
+        <h1>KnotProt</h1>
+        <h2>A database of proteins with knots and slipknots</h2>
+        <p>KnotProt collects information about proteins with knots or slipknots. The knotting complexity of proteins is presented in the form of a matrix diagram that shows users the knot type of the entire polypeptide chain and of each of its subchains. The database presents extensive information about the biological function of proteins with non-trivial knotting and enables users to analyze new structures.</p>
+        <p><a href="/learn_more" class="btn btn-primary btn-lg" role="button">Learn more »</a></p>
+    </div>
+</div>
+
+<div class="container">
+  <div class="container">
+    <div class="row">
+        <a href="/browse/"><div class="col-lg-4 icon-grey-link">
+           <i class="fa fa-border fa-list fa-5x pull-left"></i>
+            <h2>Browse database</h2>
+          </div></a><!-- /.col-lg-4 -->
+
+          <a href="/search/"><div class="col-lg-4 icon-grey-link">
+            <i class="fa fa-border fa-search fa-5x pull-left"></i>
+              <h2>Search database</h2>
+          </div></a><!-- /.col-lg-4 -->
+          
+          <a href="/submit"><div class="col-lg-4 icon-grey-link">
+              <i class="fa fa-border fa-cogs fa-5x pull-left"></i>
+              <h2>Process my structure</h2>
+          </div></a><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+</div>
+</div>
+
+<div class="container">
+    <hr>
+<div class="row">
+<div class="col-md-6">
+
+<a href="/cite" class="btn btn-default btn-xs"><i class="fa fa-file-text-o"></i> How to cite</a>
+</div>
+<div class="col-md-6">
+<small class="text-muted" style="float:right">KnotProt | Interdisciplinary Laboratory of Biological Systems Modelling</small>
+</div>
+</div>
+<img src="http://biocomp.chem.uw.edu.pl/s/piwik.php?idsite=6&amp;rec=1&amp;bots=1" style="border:0" alt="">
+</div>
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+</body>
+</html>
